@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+
 body {
   font: 400 16px/1.62 Georgia, "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", sans-serif;
   color: #535353;
@@ -11,10 +12,12 @@ body {
 
 
 #container {
-    max-width:600px;
+
+    max-width: 600px;
     margin: 0 auto;
     text-align: center;
     margin-top: 20vh;
+
 }
 
 img {

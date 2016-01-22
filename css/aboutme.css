@@ -1,18 +1,58 @@
+/*设定字体*/
+@font-face {font-family: "iconfont";
+  src: url('../font/iconfont.eot'); /* IE9*/
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../font/iconfont.woff') format('woff'), /* chrome, firefox */
+  url('../font/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:30px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
 
 
-#menu { margin: 0; padding: 0; position: fixed; left: 10px; top: 10px; list-style-type: none; z-index: 70;}
+/*设置菜单*/
+/*#menu { margin: 0; padding: 0; position: fixed; left: 10px; top: 10px; list-style-type: none; z-index: 70;}
 #menu li { float: left; margin:  0 10px 0 0; font-size: 14px;}
 #menu a { float: left; padding: 10px 20px; background-color: #fff; color: #333; text-decoration: none;}
-#menu .active a { color: #fff; background-color: #333;}
+#menu .active a { color: #fff; background-color: #333;}*/
 
+
+
+/*设置返回图表*/
+#back a {
+    color: black;
+    font-size: 150%;
+    position: fixed;
+    left: 4%;
+    top: 3vh;
+    z-index: 99;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    text-decoration: none;
+}
+#back a:hover {
+    color:blue;
+}
+
+
+
+/*整体设置*/
 .section {
     text-align: center;
 }
 
 article {
-    margin:  0 auto 100px;
+    margin:  0 auto 10vh;
     max-width: 600px;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
 }
+
 
 article h1 {
     margin-bottom: 30px;
@@ -22,8 +62,20 @@ article p{
     line-height: 160%;
 }
 
+
+
+/*分节设置*/
 .s1 {
-    background-image: url(../pic/girl.jpg);
+    background-image: url(../pic/section1.jpg);
+   /* background-image: url(http://pic.962.net/up/2016-1/20161149111.png);*/
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.s1 article {
+    margin-bottom: 40vh;
 }
 
 .s1 img {
@@ -35,13 +87,33 @@ article p{
 }
 
 .s2 {
-    background-color: #353CD6;
+    background-color: white;
 }
+
+.s2 img {
+    max-width:90%;
+}
+
 
 .s3 {
     background-color: #BD3636;
+    background-image: url(../pic/section3.jpg);
+    background-position: 49% 90%;
+    background-size: cover;
+}
+
+
+.s3 article {
+    padding-bottom: 30vh;
 }
 
 .s4 {
-    background-color: rgb(102, 153, 204);
+    background-image: url(../pic/section4.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-size: cover;
+}
+
+.s4 article {
+    padding-bottom: 30vh;
 }
