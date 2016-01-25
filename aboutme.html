@@ -1,10 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Document</title>
+    <meta charset="UTF-8">
+    <!-- 网页的宽度设置为设备的宽度便于浏览，不缩放 -->
+    <meta name="viewport" content="width=device-width, 
+                                     initial-scale=1.0">
+    <title>AboutMe</title>
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" href="css/aboutme.css">
 </head>
 <body>
-	about me
+    <!-- 原来的menu导航 -->
+<!--     <ul id="menu">
+    <li data-menuanchor="page1" class="active"><a href="#page1">第一屏</a></li>
+    <li data-menuanchor="page2"><a href="#page2">第二屏</a></li>
+    <li data-menuanchor="page3"><a href="#page3">第三屏</a></li>
+    <li data-menuanchor="page4"><a href="#page4">第四屏</a></li>
+    </ul> -->
+
+    <!-- 设置的主页返回按钮 -->
+    <div id='back'><a href="./index.html"><i class="icon iconfont">&#xe60d;</i> 主页</a></div>
+    <!-- 全屏网页部分 -->
+    <div id="fullpage">
+        <div class="section s1 activate"> 
+            <article>
+                <img src="./pic/myphoto.jpg">
+                <h1>我是YoungGy</h1>
+                <p>这里，是一个安安静静，写字学习的好地方。</p>
+            </article>
+        </div>
+        <div class="section s2">
+            <article>
+                <h1>一些数据</h1>
+                <p>都说，现在是大数据的时代，<strong>Data Scientist</strong>听起来就很炫。<br>但是万丈高楼平地起，自己还得多加把劲啊。</p>
+                <img src="pic/section2.jpg">
+            </article>
+        </div>
+        <div class="section s3">
+            <article>
+                <h1>一些图片</h1>
+                <p>闲余时分，照片一二，记录下生活的点点滴滴倒也是极好的。</p>
+            </article>
+        </div>
+        <div class="section s4">
+            <article>
+                <h1>一些未知</h1>
+                <p>这个世界，充满了惊喜与惊异。未知的事情让人害怕又兴奋。<br>于自己，希望未来的自己越来越帅；于国家，希望未来能为国家做出贡献。</p>
+            </article>
+        </div>
+    </div>
+    <script type="text/javascript" src='js/jquery-1.12.0.min.js'></script>
+    <script type="text/javascript" src='js/jquery.fullPage.js'></script>
+    <script type="text/javascript" src='js/aboutme.js'></script>
 </body>
 </html>
