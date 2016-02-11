@@ -22,8 +22,13 @@ body {
     height: 450px;
 }
 
-.thumbnail img {
+.thumbnail a img {
     height: 200px;
+}
+
+.checkCert {
+    position: absolute;
+    bottom: 45px;
 }
 
 
