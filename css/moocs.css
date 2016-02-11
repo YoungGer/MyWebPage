@@ -8,10 +8,26 @@ body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
 }
 
-.thumb {
-    margin-bottom: 30px;
+
+.modal img {
+    max-width: 90%;
 }
 
+#courseName {
+    font-weight: normal;
+}
+
+.thumbnail {
+    margin-bottom: 30px;
+    height: 450px;
+}
+
+.thumbnail img {
+    height: 200px;
+}
+
+
+
 footer {
-    margin: 50px 0;
+    margin: 50px ;
 }
