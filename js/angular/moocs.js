@@ -243,6 +243,15 @@ var pics  = [
     category:'',
     university:"Yonsei University",
     describe:''
+},
+{
+    id:'',
+    name:"Introduction to Meteor.js Development",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/og-image-logo.png',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/MeteorDevelopment.pdf_1.Jpeg',
+    category:'',
+    university:"London University",
+    describe:''
 }
 ];
 
