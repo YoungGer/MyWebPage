@@ -252,6 +252,15 @@ var pics  = [
     category:'',
     university:"London University",
     describe:''
+},
+{
+    id:'',
+    name:"Multiplatform Mobile App Development with Web Technologies",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/ionic.png',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/02240841579CourseraBEBHRPMG2QS5.pdf_1.Jpeg',
+    category:'',
+    university:"HKUST",
+    describe:''
 }
 ];
 
