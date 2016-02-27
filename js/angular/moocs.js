@@ -261,6 +261,15 @@ var pics  = [
     category:'',
     university:"HKUST",
     describe:''
+},
+{
+    id:'',
+    name:"Microeconomics: The Power of Markets",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/microeconomics.png',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/Microeconomic.Jpeg',
+    category:'',
+    university:"University of Pennsylvania",
+    describe:''
 }
 ];
 
