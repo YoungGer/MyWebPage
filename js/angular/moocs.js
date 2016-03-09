@@ -270,6 +270,24 @@ var pics  = [
     category:'',
     university:"University of Pennsylvania",
     describe:''
+},
+{
+    id:'',
+    name:"Experiment For Improvement",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/StatsMOOCLogo2c.jpg',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/McMaster_ExperimentForImprovement.Jpeg',
+    category:'',
+    university:"McMaster University",
+    describe:''
+},
+{
+    id:'',
+    name:"Experiment For Improvement",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/large-icon.png',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/DUKE_ImageAndVideoProcessing.jpg',
+    category:'',
+    university:"Duke University",
+    describe:''
 }
 ];
 
