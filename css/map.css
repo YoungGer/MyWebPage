@@ -1,0 +1,21 @@
+html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                }
+
+#map {
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    }
+#map_aff6c9dfd22645229e0313b9db0ea84e {
+                position : relative;
+                width : 85.0%;
+                height: 500px;
+                left: 0.0%;
+                top: 0.0%;
+                }

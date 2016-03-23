@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://rawgithub.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster-src.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://rawgit.com/lvoogdt/Leaflet.awesome-markers/2.0/develop/dist/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <link rel="stylesheet" type="text/css" href="css/map.css">
+</head>
+<body>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-12'>
+                <h1>地点概括</h1>
+                <table class="table table-hover">
+                  <tr>
+                      <th>地点</th>
+                      <th>距离</th>
+                      <th>周三</th>
+                      <th>周四</th>
+                      <th>周五</th>
+                      <th>周六</th>
+                    </tr>
+                    <tr>
+                      <td>武汉</td>
+                      <td>0</td>
+                      <td>阴</td>
+                      <td>雨</td>
+                      <td>雨转阴</td>
+                      <td>阴</td>
+                    </tr>
+                    <tr>
+                      <td>庐山</td>
+                      <td>180</td>
+                      <td>阴</td>
+                      <td>雨</td>
+                      <td>雨转阴</td>
+                      <td>多云</td>
+                    </tr>
+                    <tr>
+                      <td>三峡</td>
+                      <td>290</td>
+                      <td>阴</td>
+                      <td>雨</td>
+                      <td>多云</td>
+                      <td>多云</td>
+                    </tr>
+                    <tr>
+                      <td>婺源</td>
+                      <td>360</td>
+                      <td>晴</td>
+                      <td>雨</td>
+                      <td>雨</td>
+                      <td>晴</td>
+                    </tr>
+                    <tr>
+                      <td>神农架</td>
+                      <td>380</td>
+                      <td>晴</td>
+                      <td>雨</td>
+                      <td>雨</td>
+                      <td>晴</td>
+                    </tr>
+                    <tr>
+                      <td>张家界</td>
+                      <td>400</td>
+                      <td>阴雨</td>
+                      <td>雨</td>
+                      <td>多云</td>
+                      <td>多云转雨</td>
+                    </tr>
+                </table>
+
+                <div class="folium-map" id="map_aff6c9dfd22645229e0313b9db0ea84e" ></div>
+                
+                <h1>建议</h1>
+                
+                <p>1. 武汉有我，没有任何问题。</p>
+                <p>2. 先把神农架排除了，三月淡季，气温太低了。</p>
+                <p>3. 剩下的看个人喜好，我个人偏向去婺源看油菜花和去张家界看山。</p>
+                <p>4. 最重要还是看你喜欢什么了，毕竟ladies first。</p>
+                <p>5. 天气的话如果下雨，还是晚来些比较好。</p>
+
+
+
+            </div>
+        </div>
+        
+    </div>
+    
+    
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.12.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src='js/map.js'></script>
+
+</body>
+
+</html>

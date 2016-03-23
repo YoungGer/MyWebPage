@@ -288,6 +288,15 @@ var pics  = [
     category:'',
     university:"Duke University",
     describe:''
+},
+{
+    id:'',
+    name:"Principles of Economics with Calculus",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/CaltechX%2BEc1011x%2B1T2016%2Btype%40thumbnail%2Bblock%40large-icon-png-375x200.jpg',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/03231027518CaltechX_PrinciplesOfEconomics.pdf_1.Jpeg',
+    category:'',
+    university:"Caltech",
+    describe:''
 }
 ];
 
