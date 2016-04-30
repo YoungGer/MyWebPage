@@ -228,6 +228,15 @@ var pics  = [
 },
 {
     id:'',
+    name:"Machine Learning Classification",
+    courseUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/iris_knn.png',
+    certiUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/UW_MLClassification.jpg',
+    category:'',
+    university:"University of Washington",
+    describe:''
+},
+{
+    id:'',
     name:"Big Data, Cloud Computeing and CDN",
     courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/cdn.jpg',
     certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/YONSEI_CloudBigDataCDN.png',
@@ -258,6 +267,15 @@ var pics  = [
     name:"Multiplatform Mobile App Development with Web Technologies",
     courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/ionic.png',
     certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/02240841579CourseraBEBHRPMG2QS5.pdf_1.Jpeg',
+    category:'',
+    university:"HKUST",
+    describe:''
+},
+{
+    id:'',
+    name:"Server-side Development with NodeJS",
+    courseUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/nodejs.jpg',
+    certiUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/HKU_ServerSideNodejs.png',
     category:'',
     university:"HKUST",
     describe:''
@@ -298,6 +316,7 @@ var pics  = [
     university:"Caltech",
     describe:''
 }
+
 ];
 
 
