@@ -3,13 +3,176 @@ var app = angular.module('moocs', []);
 var pics  = [
 {
     id:'',
-    name:"Data Processing Using Python",
-    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/python%E7%8E%A9%E8%BD%AC%E6%95%B0%E6%8D%AE.jpg',
-    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6_py%E7%8E%A9%E8%BD%AC%E6%95%B0%E6%8D%AE.png',
+    name:"Deep Learning Nano Degree",
+    courseUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/Capture%20d%E2%80%99%C3%A9cran%202013-08-23%20%C3%A0%2016.07.06.png',
+    certiUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/udacity_certification.png',
     category:'',
-    university:"Nanjing University",
+    university:"Udacity",
     describe:''
 },
+{
+    id:'',
+    name:"Machine Leaning Foundations",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/ntu_%E5%9F%BA%E7%9F%B3.png',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/NTU_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3.png',
+    category:'',
+    university:"National Taiwan University",
+    describe:''
+},
+{
+    id:'',
+    name:"Machine Leaning Techniques",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/ntu_%E6%8A%80%E6%B3%95.png',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/NTU_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95.png',
+    category:'',
+    university:"National Taiwan University",
+    describe:''
+},
+{
+    id:'',
+    name:"Machine Learning Specialization",
+    courseUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/m6jpg.jpg',
+    certiUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/m0.png',
+    category:'',
+    university:"University of Washington",
+    describe:''
+},
+{
+    id:'',
+    name:"Machine Learning Foundations",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/W_ML_foundation.jpg',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/UW_MLFoundation.png',
+    category:'',
+    university:"University of Washington",
+    describe:''
+},
+{
+    id:'',
+    name:"Machine Learning Regression",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/W_regression.png',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/UW_MLRegression.png',
+    category:'',
+    university:"University of Washington",
+    describe:''
+},
+{
+    id:'',
+    name:"Machine Learning Classification",
+    courseUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/iris_knn.png',
+    certiUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/UW_MLClassification.jpg',
+    category:'',
+    university:"University of Washington",
+    describe:''
+},
+{
+    id:'',
+    name:"Machine Learning Clustering",
+    courseUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/m2.png',
+    certiUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/m1.png',
+    category:'',
+    university:"University of Washington",
+    describe:''
+},
+{
+    id:'',
+    name:"Mining Massive Datasets",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/mmds_logo2.png',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/STU_MiningMassiveDatasets.png',
+    category:'',
+    university:"Stanford University",
+    describe:''
+},
+{
+    id:'',
+    name:"Machine Leaning",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/ng-ml.png',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/STU_ML.png',
+    category:'',
+    university:"Stanford University",
+    describe:''
+},
+{
+    id:'',
+    name:"Probabilistic Graphical Models 1: Representation",
+    courseUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/pgm2.png',
+    certiUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/pgm1.png',
+    category:'',
+    university:"Stanford University",
+    describe:''
+},
+{
+    id:'',
+    name:"Introduction to Big Data",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/intro-big-data-_2_.jpg',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/UCSanDiego_IntroToBigData.png',
+    category:'',
+    university:"UC SanDiego",
+    describe:''
+},
+{
+    id:'',
+    name:"Introduction to Computer Science and Programming Using Python",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/6001x_378x225_0.jpg',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/MIT6.00.1x_IntroCS.png',
+    category:'',
+    university:"MIT",
+    describe:''
+},
+{
+    id:'',
+    name:"Introduction to Computer Thinking and Data Science",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/6.00.2x_computational_thinking_homepage378x225.jpg',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/MIT6.00.2x_IntroDS.png',
+    category:'',
+    university:"MIT",
+    describe:''
+},
+{
+    id:'',
+    name:"Algorithms Specialization",
+    courseUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/a5.png',
+    certiUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/a0.png',
+    category:'',
+    university:"Stanford University",
+    describe:''
+},
+{
+    id:'',
+    name:"Divide and Conquer, Sorting and Searching, and Randomized Algorithms",
+    courseUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/a5.png',
+    certiUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/a1.png',
+    category:'',
+    university:"Stanford University",
+    describe:''
+},
+{
+    id:'',
+    name:"Graph Search, Shortest Paths, and Data Structures",
+    courseUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/a5.png',
+    certiUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/a2.png',
+    category:'',
+    university:"Stanford University",
+    describe:''
+},
+{
+    id:'',
+    name:"Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming",
+    courseUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/a5.png',
+    certiUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/a3.png',
+    category:'',
+    university:"Stanford University",
+    describe:''
+},
+{
+    id:'',
+    name:"Shortest Paths Revisited, NP-Complete Problems and What To Do About Them",
+    courseUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/a5.png',
+    certiUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/a4.png',
+    category:'',
+    university:"Stanford University",
+    describe:''
+},
+
 {
     id:'',
     name:"Introduction to Big Data with Apache Spark",
@@ -55,33 +218,7 @@ var pics  = [
     university:"Duke University",
     describe:''
 },
-{
-    id:'',
-    name:"HTML CSS and JAvaScript",
-    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/html_css_javascript_for_coursera.png',
-    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/HKU_HtmlCssJs.png',
-    category:'',
-    university:"HKUST",
-    describe:''
-},
-{
-    id:'',
-    name:"Front-End Web UI Framework and Tools",
-    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/bootstrap.png',
-    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/HKU_BootStrapAndBrew.png',
-    category:'',
-    university:"HKUST",
-    describe:''
-},
-{
-    id:'',
-    name:"Front-End JS Framework-AngularJS",
-    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/pic_angular.jpg',
-    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/HKU_AngularJS.png',
-    category:'',
-    university:"HKUST",
-    describe:''
-},
+
 {
     id:'',
     name:"R Programming",
@@ -129,110 +266,11 @@ var pics  = [
 },
 {
     id:'',
-    name:"Introduction to Computer Science and Programming Using Python",
-    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/6001x_378x225_0.jpg',
-    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/MIT6.00.1x_IntroCS.png',
-    category:'',
-    university:"MIT",
-    describe:''
-},
-{
-    id:'',
-    name:"Introduction to Computer Thinking and Data Science",
-    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/6.00.2x_computational_thinking_homepage378x225.jpg',
-    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/MIT6.00.2x_IntroDS.png',
-    category:'',
-    university:"MIT",
-    describe:''
-},
-{
-    id:'',
     name:"The Analytics Edge",
     courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/15.071x_analytics_course_image_378x225.jpg',
     certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/MIT15.071x_AnalyticsEdge.png',
     category:'',
     university:"MIT",
-    describe:''
-},
-{
-    id:'',
-    name:"Calculus 1A",
-    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/integral_calculus_378x225.jpg',
-    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/MIT18.01.1x_Calculus1A.png',
-    category:'',
-    university:"MIT",
-    describe:''
-},
-{
-    id:'',
-    name:"Machine Leaning Foundations",
-    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/ntu_%E5%9F%BA%E7%9F%B3.png',
-    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/NTU_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%9F%B3.png',
-    category:'',
-    university:"National Taiwan University",
-    describe:''
-},
-{
-    id:'',
-    name:"Machine Leaning Techniques",
-    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/ntu_%E6%8A%80%E6%B3%95.png',
-    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/NTU_%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%B3%95.png',
-    category:'',
-    university:"National Taiwan University",
-    describe:''
-},
-{
-    id:'',
-    name:"Mining Massive Datasets",
-    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/mmds_logo2.png',
-    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/STU_MiningMassiveDatasets.png',
-    category:'',
-    university:"Stanford University",
-    describe:''
-},
-{
-    id:'',
-    name:"Machine Leaning",
-    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/ng-ml.png',
-    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/STU_ML.png',
-    category:'',
-    university:"Stanford University",
-    describe:''
-},
-{
-    id:'',
-    name:"Introduction to Big Data",
-    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/intro-big-data-_2_.jpg',
-    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/UCSanDiego_IntroToBigData.png',
-    category:'',
-    university:"UC SanDiego",
-    describe:''
-},
-{
-    id:'',
-    name:"Machine Learning Foundations",
-    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/W_ML_foundation.jpg',
-    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/UW_MLFoundation.png',
-    category:'',
-    university:"University of Washington",
-    describe:''
-},
-{
-    id:'',
-    name:"Machine Learning Regression",
-    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/W_regression.png',
-    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/UW_MLRegression.png',
-    category:'',
-    university:"University of Washington",
-    describe:''
-},
-{
-    id:'',
-    name:"Machine Learning Classification",
-    courseUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/iris_knn.png',
-    certiUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/UW_MLClassification.jpg',
-    category:'',
-    university:"University of Washington",
     describe:''
 },
 {
@@ -255,11 +293,39 @@ var pics  = [
 },
 {
     id:'',
-    name:"Introduction to Meteor.js Development",
-    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/og-image-logo.png',
-    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/MeteorDevelopment.pdf_1.Jpeg',
+    name:"Data Processing Using Python",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/python%E7%8E%A9%E8%BD%AC%E6%95%B0%E6%8D%AE.jpg',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6_py%E7%8E%A9%E8%BD%AC%E6%95%B0%E6%8D%AE.png',
     category:'',
-    university:"London University",
+    university:"Nanjing University",
+    describe:''
+},
+
+{
+    id:'',
+    name:"HTML CSS and JAvaScript",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/html_css_javascript_for_coursera.png',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/HKU_HtmlCssJs.png',
+    category:'',
+    university:"HKUST",
+    describe:''
+},
+{
+    id:'',
+    name:"Front-End Web UI Framework and Tools",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/bootstrap.png',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/HKU_BootStrapAndBrew.png',
+    category:'',
+    university:"HKUST",
+    describe:''
+},
+{
+    id:'',
+    name:"Front-End JS Framework-AngularJS",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/pic_angular.jpg',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/HKU_AngularJS.png',
+    category:'',
+    university:"HKUST",
     describe:''
 },
 {
@@ -280,6 +346,29 @@ var pics  = [
     university:"HKUST",
     describe:''
 },
+
+
+{
+    id:'',
+    name:"Calculus 1A",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/integral_calculus_378x225.jpg',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/MIT18.01.1x_Calculus1A.png',
+    category:'',
+    university:"MIT",
+    describe:''
+},
+
+
+{
+    id:'',
+    name:"Introduction to Meteor.js Development",
+    courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/og-image-logo.png',
+    certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/MeteorDevelopment.pdf_1.Jpeg',
+    category:'',
+    university:"London University",
+    describe:''
+},
+
 {
     id:'',
     name:"Microeconomics: The Power of Markets",
@@ -300,7 +389,7 @@ var pics  = [
 },
 {
     id:'',
-    name:"Experiment For Improvement",
+    name:"Image and Video Processing",
     courseUrl:'http://7xqung.com1.z0.glb.clouddn.com/large-icon.png',
     certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/DUKE_ImageAndVideoProcessing.jpg',
     category:'',
@@ -314,6 +403,24 @@ var pics  = [
     certiUrl:'http://7xqung.com1.z0.glb.clouddn.com/03231027518CaltechX_PrinciplesOfEconomics.pdf_1.Jpeg',
     category:'',
     university:"Caltech",
+    describe:''
+},
+{
+    id:'',
+    name:"Computational Investing, PART1",
+    courseUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/f3.jpg',
+    certiUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/f1.png',
+    category:'',
+    university:"Georgia Institute of Technology",
+    describe:''
+},
+{
+    id:'',
+    name:"Financial Markets",
+    courseUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/f4.jpg',
+    certiUrl:'http://7xlwwh.com1.z0.glb.clouddn.com/f2.png',
+    category:'',
+    university:"Yale University",
     describe:''
 }
 
